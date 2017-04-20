@@ -1,0 +1,23 @@
+body {
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+font-family: "PT Sans Narrow", sans-serif;
+color: #000000;
+}
+
+.site-name {
+ font-weight: normal;
+ font-size: 16px;
+ line-height: 23px;
+ font-family: italic;
+ color: #f0101b;
+}
+
+.product-nav h3 {
+ font-weight: 700;
+ font-size: 30px;
+ line-height: 30px;
+ font-family: "PT Sans Narrow", sans-serif;
+ color: #32425c;
+}
