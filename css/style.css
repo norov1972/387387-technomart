@@ -1,23 +1,282 @@
 body {
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-font-family: "PT Sans Narrow", sans-serif;
-color: #000000;
+    width: 1200px;
+    min-height: 3152px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "PT Sans Narrow", sans-serif;
+    background-color: rgba(239, 214, 74, 0.33);
+    margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.main-header {
+    min-height: 320px;
+    background-color: #f1f5f7;
+}
+
+
+.container {
+    width: 940px;
+    min-height: 42px;
+    margin: 0 auto;
+    padding: 0 1px;
+    
+}
+.header-top {
+    min-height:42px;
+    background-color: #293449;
+}
+
+
+.logo {
+    width: 220px;
+    min-height: 47px;
+    background-color:#ee3643;
+    margin-left: 0px;
+    float: left;
+}
+
+.navigation-top {
+    width:715px;
+    min-height: 42px;
+    background: #293449;
+    float: right;
+}
+
+.header-center {
+    min-height: 160px;
+    background-color:#f1f5f7;
+    margin-top: 41px;
 }
 
 .site-name {
- font-weight: normal;
- font-size: 16px;
- line-height: 23px;
- font-family: italic;
- color: #f0101b;
+    width: 196px;
+    height: 70px;
+    margin-left: 30px;
+    font-size: 8px;
+    line-height: 12px;
+    font-family: "Cuprum","Italic";
+    color: #ee3643;
+    float: left;
+
 }
 
-.product-nav h3 {
- font-weight: 700;
- font-size: 30px;
- line-height: 30px;
- font-family: "PT Sans Narrow", sans-serif;
- color: #32425c;
+.header-tel {
+    width: 300px;
+    min-height: 70px;
+    float: left;
+}
+
+.user-block-1 {
+   width: 140px;
+   min-height: 70px;
+   float: left;
+}
+
+.user-block-2 {
+   width: 150px;
+   min-height: 70px;
+   float: right;
+}
+
+.navigation-bottom {
+    width: 940px;
+    min-height: 60px;
+    background-color:#32425c;
+}
+
+.preview {
+    width: 940px;
+    background-color: #584b3a;
+    min-height: 412px;
+
+}
+.preview-left {
+    min-height: 412px;
+    width: 620px;
+    background-color: #f6b22d;
+    float: left;
+
+}
+
+.item-name-1 {
+    width: 300px;
+    min-height: 125px;
+    background-color: #ffffff;
+    float: left;
+}
+
+.item-name-2 {
+    width: 300px;
+    min-height: 125px;
+    background-color: #32425c;
+    float: right;
+}
+
+.preview-right {
+    width: 300px;
+    min-height: 412px;
+    background-color: #ee3643;
+    float: right;
+}
+
+.item-name-3 {
+    width: 300px;
+    min-height: 125px;
+    background-color: #bfbfbf;
+}
+
+.item-name-4 {
+    width: 300px;
+    min-height: 125px;
+    background-color: #63a63e;
+}
+
+.item-name-5 {
+    width: 300px;
+    min-height: 125px;
+    background-color: #d3ecc5;
+}
+
+.product {
+    width: 940px;
+    min-height: 430px;
+    background-color: #f7f3ec;
+}
+
+.product-nav {
+    width: 940px;
+    min-height: 90px;
+    background-color: #ffffff;
+}
+
+.product-content {
+    width: 940px;
+    min-height: 320px;
+    background-color: #bceeb4;
+}
+
+.product-content-1 {
+    width: 220px;
+    min-height: 318px;
+    float: left;
+
+}
+
+.product-content-2 {
+    width: 220px;
+    min-height: 318px;
+    float: left;
+    
+}
+
+.product-content-3 {
+    width: 220px;
+    min-height: 318px;
+    float: left;
+    
+}
+
+
+.product-content-4 {
+    width: 220px;
+    min-height: 318px;
+    float: left;
+    
+}
+
+.mark {
+    width: 940px;
+    min-height: 420px;
+    service-column-1
+
+}
+
+.mark-nav {
+    width: 940px;
+    min-height: 90px;
+     background-color: #f7f3ec;
+}
+
+.mark-content {
+    width: 940px;
+    min-height: 310px;
+     background-color: #eeeeee;
+}
+
+.mark-content-1 {
+    width: 220px;
+    min-height: 145px;
+    background-color: #e7cb95;
+    float: left;
+
+}
+
+.service {
+    width: 940px;
+    min-height: 520px;
+    background-color: #0882ca;
+}
+
+.service-name {
+    width: 398px;
+    min-height: 96px;
+    background-color: #20433f;
+}
+
+.btn-service {
+    width: 240px;
+    min-height: 185px;
+    background-color: #63a63e;
+    margin-top: 45px;
+}
+
+.service-column-1 {
+    width: 240px;
+    min-height: 185px;
+    background-color: #ffffff;
+    float: left;
+}
+
+.service-column-2 {
+    width: 320px;
+    min-height: 320px;
+    float: left;
+}
+
+.contant {
+    width: 940px;
+    min-height: 550px;
+    background-color: #f38484;
+}
+
+.main-footer {
+  width: 1200px;
+  min-height: 300px;
+  background-color: #603b3b;
+  margin: 0 auto;
+}
+
+.footer-top {
+    width: 940px;
+    min-height: 47px;
+    background-color: #bfbfbf;
+}
+
+.footer-center {
+    width: 940px;
+    min-height: 146px;
+    background-color: #32425c;
+}
+
+.footer-bottom {
+    min-height: 107px;
+    background-color: #293449;
 }
