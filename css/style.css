@@ -5,8 +5,9 @@ body {
     font-size: 14px;
     line-height: 24px;
     font-family: "PT Sans Narrow", sans-serif;
-    background-color: rgba(239, 214, 74, 0.33);
+    background-color: #ffffff;
     margin: 0 auto;
+    padding: 0;
 }
 
 .clearfix::after {
@@ -37,10 +38,11 @@ body {
 
 .logo {
     width: 220px;
-    min-height: 47px;
+    min-height: 42px;
     background-color:#ee3643;
     margin-left: 0px;
     float: left;
+    
 }
 
 .navigation-top {
@@ -48,18 +50,48 @@ body {
     min-height: 42px;
     background: #293449;
     float: right;
+   
 }
+
+.navigation-top-search {
+    min-height: 42px;
+    width: 100px;
+    float: left;
+    margin-right: 150px;
+}
+
+.navigation-top-marker {
+    min-height: 42px;
+    width: 160px;
+    float: left;
+}
+
+.navigation-top-basket {
+    min-height: 42px;
+    width: 140px;
+    float: left;
+}
+
+.navigation-top-order {
+    min-height: 42px;
+    width: 160px;
+    float: right;
+}
+
 
 .header-center {
     min-height: 160px;
     background-color:#f1f5f7;
-    margin-top: 41px;
+    
 }
 
+
 .site-name {
-    width: 196px;
-    height: 70px;
-    margin-left: 30px;
+    width: 200px;
+    min-height: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 49px;
     font-size: 8px;
     line-height: 12px;
     font-family: "Cuprum","Italic";
@@ -68,15 +100,19 @@ body {
 
 }
 
+
+
 .header-tel {
     width: 300px;
     min-height: 70px;
+    margin-top: 46px;
     float: left;
 }
 
 .user-block-1 {
-   width: 140px;
-   min-height: 70px;
+   width: 122px;
+   min-height: 47px;
+   margin-top: 47px;
    float: left;
 }
 
@@ -84,6 +120,7 @@ body {
    width: 150px;
    min-height: 70px;
    float: right;
+   margin-top: 47px;
 }
 
 .navigation-bottom {
@@ -93,17 +130,39 @@ body {
 }
 
 .preview {
-    width: 940px;
-    background-color: #584b3a;
-    min-height: 412px;
+    width: 1200px;
+    
+    min-height: 450px;
+    margin-top: 50px;
 
 }
 .preview-left {
-    min-height: 412px;
+    
     width: 620px;
-    background-color: #f6b22d;
+    background-color:;
     float: left;
+   
+}
 
+.gallery {
+    margin-top: 125px;
+   
+    background: url("/img/Layer 99.png")no-repeat;
+}
+
+
+.btn-preview {
+    min-height: 38px;
+    width: 136px;
+    margin-left: 26px;
+    margin-bottom: 23px;
+}
+
+.btn-gallery-name {
+    min-height: 39px;
+    width: 197px;
+    margin-left: 25px;
+    margin-bottom: 22px;
 }
 
 .item-name-1 {
@@ -111,6 +170,7 @@ body {
     min-height: 125px;
     background-color: #ffffff;
     float: left;
+   
 }
 
 .item-name-2 {
@@ -122,14 +182,14 @@ body {
 
 .preview-right {
     width: 300px;
-    min-height: 412px;
-    background-color: #ee3643;
+   
     float: right;
 }
 
 .item-name-3 {
     width: 300px;
     min-height: 125px;
+    margin-top: 1px;
     background-color: #bfbfbf;
 }
 
@@ -146,122 +206,246 @@ body {
 }
 
 .product {
-    width: 940px;
-    min-height: 430px;
-    background-color: #f7f3ec;
+    width: 1200px;
+    min-height: 445px;
+    background-color: #ffffff;
 }
 
 .product-nav {
     width: 940px;
     min-height: 90px;
-    background-color: #ffffff;
+    background-color: #f7f3ec;
+}
+
+.product-nav-name {
+    width: 270px;
+    min-height: 30px;
+    margin-top: 30px;
+    margin-left: 27px;
+    float: left;
+}
+
+.btn-product-nav {
+    min-height: 28px;
+    width: 255px;
+    margin-right: 22px;
+    margin-top: 25px;
+    background-color: #ee3643;
+    float: right;
 }
 
 .product-content {
     width: 940px;
     min-height: 320px;
-    background-color: #bceeb4;
+    
 }
 
 .product-content-1 {
     width: 220px;
     min-height: 318px;
     float: left;
+    
+}
 
+.gallery-product-1 {
+    min-height: 127px;
+    width: 112px;
+    margin-left: 46px;
+    margin-top: 20px;
+}
+
+.gallery-product-name {
+    width: 170px;
+    min-height: 38px;
+    margin-left: 27px;
+    
+}
+
+.gallery-price {
+    width: 80px;
+    min-height: 15px;
+    margin-left: 70px;
+    margin-top: 1px;
+}
+
+.btn-gallery-price {
+    width: 140px;
+    min-height: 40px;
+    margin-left: 44px;
+    margin-bottom: 30px;
 }
 
 .product-content-2 {
     width: 220px;
     min-height: 318px;
-    float: left;
-    
-}
-
-.product-content-3 {
-    width: 220px;
-    min-height: 318px;
-    float: left;
+    float: right;
     
 }
 
 
-.product-content-4 {
-    width: 220px;
-    min-height: 318px;
-    float: left;
-    
-}
 
 .mark {
-    width: 940px;
+    width: 1200px;
     min-height: 420px;
-    service-column-1
+}   
 
-}
+
 
 .mark-nav {
     width: 940px;
     min-height: 90px;
-     background-color: #f7f3ec;
+    background-color: #f7f3ec;
+    margin-bottom: 20px;
+}
+.mark-nav-name {
+    min-height: 37px;
+    width: 373px;
+    margin-left: 27px;
+    margin-top: 27px;
+    float: left;
+}
+
+.btn-mark-nav {
+    width: 254px;
+    min-height: 37px;
+    margin-right: 24px;
+    margin-top: 27px;
+    float: right;
+
 }
 
 .mark-content {
     width: 940px;
-    min-height: 310px;
-     background-color: #eeeeee;
+    min-height: 312px;
+    background-color: #eeeeee;
 }
 
 .mark-content-1 {
     width: 220px;
     min-height: 145px;
-    background-color: #e7cb95;
     float: left;
-
 }
 
-.service {
-    width: 940px;
+.mark-gallery-1 {
+    width: 126px;
+    min-height: 37px;
+    margin-left: 47px;
+    margin-top: 54px;
+}
+
+.mark-gallery-2 {
+    width: 123px;
+    min-height: 40px;
+    margin-left: 48px;
+    margin-top: 52px;
+}
+
+.mark-gallery-3 {
+    width: 146px;
+    min-height: 44px;
+    margin-left: 48px;
+    margin-top: 52px;
+}
+
+.mark-gallery-4 {
+    width: 200px;
+    min-height: 88px;
+    margin-left: 10px;
+    margin-top: 28px;
+}
+.mark-gallery-5 {
+    width: 169px;
+    min-height: 31px;
+    margin-left: 25px;
+    margin-top: 55px;
+}
+
+.mark-gallery-6 {
+    width: 121px;
+    min-height: 73px;
+    margin-left: 49px;
+    margin-top: 36px;
+}
+
+.mark-gallery-7 {
+    width: 151px;
+    min-height: 96px;
+    margin-left: 34px;
+    margin-top: 24px;
+}
+
+.mark-gallery-8 {
+    width: 204px;
+    min-height: 69px;
+    margin-left: 3px;
+    margin-top: 38px;
+}
+
+.main-service {
+    width: 1200px;
     min-height: 520px;
-    background-color: #0882ca;
+    background-color: #f2f6f8;
+    margin-bottom: 80px;
+    
 }
 
 .service-name {
-    width: 398px;
-    min-height: 96px;
-    background-color: #20433f;
+    width: 940px;
+    min-height: 238px;
+    background-color: #f2f6f8;
 }
 
-.btn-service {
+.btn-service-1 {
     width: 240px;
-    min-height: 185px;
+    min-height: 62px;
     background-color: #63a63e;
-    margin-top: 45px;
+   
 }
 
 .service-column-1 {
     width: 240px;
     min-height: 185px;
-    background-color: #ffffff;
+    background-color: #f2f6f8;
     float: left;
 }
 
 .service-column-2 {
-    width: 320px;
-    min-height: 320px;
+    width: 200px;
+    min-height: 185px;
     float: left;
+    margin-left: 50px;
+    background-color: #f2f6f8;
+}
+.service-column-3 {
+    float: left;
+    margin-top: 10px;
+    background-color: #f2f6f8;
 }
 
-.contant {
-    width: 940px;
-    min-height: 550px;
-    background-color: #f38484;
+.contact {
+    width: 1200px;
+    
+    background-color: #ffffff;
+}
+
+.contact-left {
+    width: 540px;
+    
+    float:left;
+}
+
+.contact-right {
+    width: 380px;
+   
+    float: right;
 }
 
 .main-footer {
   width: 1200px;
   min-height: 300px;
-  background-color: #603b3b;
+  background-color: #32425c;
   margin: 0 auto;
+  margin-top: 90px;
 }
 
 .footer-top {
@@ -270,13 +454,62 @@ body {
     background-color: #bfbfbf;
 }
 
+.footer-logo {
+    width: 220px;
+    min-height: 47px;
+    background-color:#ee3643;
+    margin-left: 0px;
+    float: left;
+}
+
+.footer-top-nav {
+    float: right;
+}
+
 .footer-center {
     width: 940px;
-    min-height: 146px;
+    min-height: 130px;
     background-color: #32425c;
+}
+.adress {
+    min-height: 55px;
+    width: 333px;
+    float: left;
+}
+
+.footer-center-nav {
+    float: right;
+    
 }
 
 .footer-bottom {
     min-height: 107px;
     background-color: #293449;
+}
+
+
+.footer-copyright {
+    min-height: 107px;
+    width: 170px;
+    float: left;
+}
+
+.footer-social {
+    min-height: 107px;
+    width: 250px;
+    float: left;
+    background-color: #293449;
+}
+
+
+.footer-post {
+     min-height: 107px;
+     width: 155px;
+     float: left;
+}
+
+.footer-mark {
+     min-height: 107px;
+     width: 110px;
+     float: right;
 }
