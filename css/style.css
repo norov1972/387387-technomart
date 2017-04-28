@@ -147,7 +147,7 @@ body {
 .gallery {
     margin-top: 125px;
    
-    background: url("../img/Layer 99.png")no-repeat;
+    background: url("/img/Layer 99.png")no-repeat;
 }
 
 
@@ -247,12 +247,21 @@ body {
     
 }
 
+.product-content-2 {
+    width: 220px;
+    min-height: 318px;
+    float: right;
+    
+}
+
+
 .gallery-product-1 {
     min-height: 127px;
     width: 112px;
     margin-left: 46px;
     margin-top: 20px;
 }
+
 
 .gallery-product-name {
     width: 170px;
@@ -275,12 +284,9 @@ body {
     margin-bottom: 30px;
 }
 
-.product-content-2 {
-    width: 220px;
-    min-height: 318px;
-    float: right;
-    
-}
+
+
+
 
 
 
@@ -512,4 +518,115 @@ body {
      min-height: 107px;
      width: 110px;
      float: right;
+}
+
+/* Catalog inner*/
+
+.inner-nav {
+    width: 940px;
+    min-height: 60px;
+    background-color: #ee3643;
+}
+.inner-nav-name {
+    width: 940px;
+    min-height: 90px;
+    background-color: #bfbfbf;
+}
+.inner-content {
+    width: 940px;
+    min-height: 1200px;
+    background-color: #3dcb58;
+}
+
+.inner-content-left {
+    width: 220px;
+    min-height: 1200px;
+    background-color: #80dacd;
+    float: left;
+}
+
+.filter {
+    width: 220px;
+    min-height: 38px;
+    background-color: #cd84d3;
+    margin-bottom: -20px;
+}
+
+.inner-price {
+    width: 220px;
+    min-height: 57px;
+    background-color: #a952ae;
+    margin: 0;
+}
+
+.inner-slider {
+    width: 220px;
+    min-height: 80px;
+    background-color: #e7e888;
+    margin-bottom: 10px;
+}
+
+.inner-slider-range-1 {
+    width: 95px;
+    min-height: 38px;
+    background-color: #838384;
+    float: left;
+}
+
+.inner-slider-range-2 {
+    width: 95px;
+    min-height: 38px;
+    background-color: #838384;
+    float: right;
+   
+}
+
+.inner-manufacturer {
+    width: 220px;
+    min-height: 264px;
+    background-color: #a0edee;
+    margin-top: 65px;
+}
+
+.inner-supply {
+    width: 220px;
+    min-height: 200px;
+    background-color: #e9ed5b;
+    
+}
+.btn-inner-left {
+    width: 140px;
+    min-height: 38px;
+    background-color: #ffffff;
+}
+
+.inner-content-right {
+    width: 700px;
+    min-height: 1200px;
+    background-color: #ffffff;
+    float: right;
+}
+
+.inner-right-title {
+     width: 700px;
+     min-height: 38px; 
+}
+.inner-right-title h {
+     width: 140px;
+     min-height: 38px;
+     float: left;
+     background-color: #f7f3ec;
+}
+
+.inner-product-content {
+    width: 700px;
+    min-height: 1000px;
+
+}
+
+.inner-inform {
+    width: 1200px;
+    min-height: 262px;
+    background-color: #f2f6f8;
+    margin-top: -18px; 
 }
