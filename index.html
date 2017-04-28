@@ -3,38 +3,36 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
-    <link href="css/style.css" rel="stylesheet"> 
+    <link href="StyleSheet.css" rel="stylesheet">
   </head>
   <body>
      <header class="main-header">
+          <div class="container clearfix">
       <div class="header-top">
        <div class="container">
         <div class="logo">
          <a href="#">Техномарт</a>
         </div>
         <nav class="navigation-top">
-          <ul>
-            <li>
-             <a href="#">Поиск</a>
-            </li>
-              <li>
-             <a href="#">Закладки</a>
-            </li>
-              <li>
-             <a href="#">Корзина</a>
-            </li>
-              <li>
-             <a href="#">Оформить заказ</a>
-            </li>
-           </ul>
+          <div class="navigation-top-search">
+             <a href="#">Поиск</a> 
+          </div>
+            <div class="navigation-top-marker">
+              <a href="#">Закладки</a>
+            </div>
+            <div class="navigation-top-basket">
+              <a href="#">Корзина</a>
+            </div>
+            <div class="navigation-top-order">
+                <a href="#">Оформить заказ</a>
+            </div>
          </nav>
         </div>
        </div>
-         <div class="container clearfix">
-       <div class="header-center clearfix">
-        <div class="site-name">
-         <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
-            </div>
+      <div class="header-center">
+       <div class="site-name">
+        <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+       </div>
          <div class="header-tel">
            <button class="btn" type="submit">+7(812-555-05-05)</button>
             <p>г.Санкт-Петербург,ул.Б.Конюшенная,д.19/8</p>
@@ -73,115 +71,139 @@
             </nav>
            </div>
           </header>
-           <main class="container clearfix">
-             <div class="preview">
+          <div class="preview">
+             <div class="container clearfix">
                <div class="preview-left">
                 <div class="item-name-1">
                    <h3>Материалы</h3>
-                   <p>На любой вкус</p>
+                   <button class="btn-preview" type="submit">На любой вкус</button>
                   </div>
                  <div class="item-name-2">
                      <h3>Инструмент</h3>
-                   <p>На все случаи</p>
+                  <button class="btn-preview" type="submit">На все случаи</button>
                   </div>
                    <article class="gallery">
                   <div class="gallery-name">
-                    <h2>Перфораторы</h2>
+                   <h2>Перфораторы</h2>
                     <p>Настоящие мужские игрушки</p>
-                    <button class="btn" type="submit">Открыть каталог</button>
+                    <button class="btn-gallery-name" type="submit">Открыть каталог</button>
                    </div>
                   </article>
                   </div>
                    <div class="preview-right">
                    <div class="item-name-3">
-                       <b>Техника</b>
-                       <p>Для стройки</p>
+                       <h3>Техника</h3>
+                       <button class="btn-preview" type="submit">Для стройки</button>
                      </div>
                        <div class="item-name-4">
-                         <b>Скидки 50%</b>
-                         <p>На 350 товаров</p>
+                         <h3>Скидки 50%</h3>
+                         <button class="btn-preview" type="submit">На 350 товаров</button>
                         </div>
                            <div class="item-name-5">
-                           <b>Доставка</b>
-                           <p>Бесплатно</p>
+                           <h3>Доставка</h3>
+                           <button class="btn-preview" type="submit">Бесплатно</button>
                          </div>
                         </div>
                       </div>
+                     </div>
                      <div class="product">
+                      <div class="container clearfix">
                        <nav class="product-nav">
-                        <h3>Популярные товары:</h3>
-                          <button class="btn" type="submit">Все популярные товары</button>
+                        <h3 class="product-nav-name">Популярные товары:</h3>
+                          <button class="btn-product-nav" type="submit">Все популярные товары</button>
                            </nav>
+                           <div class="product-content">
                             <div class="product-content-1">
-                              <figure class="gallery-product">
-                                <img src="img/snippet-32961 copy 3.png" width="184" height="164" alt="">
+                              <figure class="gallery-product-1">
+                                <img src="img/snippet-32961 copy 3.png" width="127" height="112" alt="">
                               </figure>
-                                <p>Перфоратор Bosch BFG 9000</p>
-                                <h3 class="price">32500 Р.</h3>
-                                <button class="btn" type="submit">22500 Р.</button>
+                                <h3 class="gallery-product-name">Перфоратор Bosch BFG 9000</h3>
+                                <h3 class="gallery-price">32500 Р.</h3>
+                                <button class="btn-gallery-price" type="submit">22500 Р.</button>
+                            </div>
+                            <div class="product-content-1">
+                              <figure class="gallery-product-1">
+                                <img src="img/snippet-18927 copy 3.png" width="127" height="112" alt="">
+                              </figure>
+                                <h3 class="gallery-product-name">Перфоратор Bosch BFG 3000</h3>
+                                <h3 class="gallery-price">22500 Р.</h3>
+                                <button class="btn-gallery-price" type="submit">15500 Р.</button>
                             </div>
                             <div class="product-content-2">
-                              <figure class="gallery-product">
-                                <img src="img/snippet-18927 copy 3.png" width="184" height="164" alt="">
+                              <figure class="gallery-product-1">
+                                <img src="img/snippet-945 copy 2.png" width="127" height="112" alt="">
                               </figure>
-                                <p>Перфоратор Bosch BFG 3000</p>
-                                <h3 class="price">22500 Р.</h3>
-                                <button class="btn" type="submit">15500 Р.</button>
+                                <h3 class="gallery-product-name">Перфоратор Bosch BFG 6000</h3>
+                                <h3 class="gallery-price">30500 Р.</h3>
+                                <button class="btn-gallery-price" type="submit">25500 Р.</button>
                             </div>
-                            <div class="product-content-3">
-                              <figure class="gallery-product">
-                                <img src="img/snippet-945 copy 2.png" width="184" height="164" alt="">
+                            <div class="product-content-2">
+                              <figure class="gallery-product-1">
+                                <img src="img/snippet-18927 copy 2.png" width="127" height="112" alt="">
                               </figure>
-                                <p>Перфоратор Bosch BFG 6000</p>
-                                <h3 class="price">30500 Р.</h3>
-                                <button class="btn" type="submit">25500 Р.</button>
-                            </div>
-                            <div class="product-content-4">
-                              <figure class="gallery-product">
-                                <img src="img/snippet-18927 copy 2.png" width="184" height="164" alt="">
-                              </figure>
-                                <p>Перфоратор Bosch BFG 2000</p>
-                                <h3 class="price"></h3>
-                                <button class="btn" type="submit">15500 Р.</button>
+                                <h3 class="gallery-product-name">Перфоратор Bosch BFG 2000</h3>
+                                <h3 class="gallery-price"></h3>
+                                <button class="btn-gallery-price" type="submit">15500 Р.</button>
                             </div>
                         </div>
+                         </div>
+                         </div>
                        <div class="mark">
+                         <div class="container clearfix">
                          <nav class="mark-nav">
-                             <h3>Популярные производители</h3>
-                             <button class="btn" type="submit">Все производители</button>
+                             <h3 class="mark-nav-name">Популярные производители</h3>
+                             <button class="btn-mark-nav" type="submit">Все производители</button>
                           </nav>
                             <div class="mark-content">
                               <article class="mark-content-1">
-                                <img src="img/bosch.png" width="126" height="37" alt=""> 
+                                <div class="mark-gallery-1">
+                                <img src="img/bosch.png" width="126" height="37" alt="">
+                                 </div>
                               </article>
                               <article class="mark-content-1">
-                                <img src="img/Makita.png" width="123" height="40" alt=""> 
+                                 <div class="mark-gallery-2">
+                                  <img src="img/Makita.png" width="123" height="40" alt="">
+                                 </div> 
                               </article>
                               <article class="mark-content-1">
+                                  <div class="mark-gallery-3">
                                 <img src="img/DeWALT.png" width="146" height="44" alt=""> 
+                                   </div>
                               </article>
                               <article class="mark-content-1">
-                                <img src="img/Интерскол.png" width="200" height="88" alt=""> 
+                                  <div class="mark-gallery-4">
+                                <img src="img/Интерскол.png" width="200" height="88" alt="">
+                                   </div>
                               </article>
                               <article class="mark-content-1">
-                                <img src="img/Hitachi.png" width="169" height="31" alt=""> 
+                                  <div class="mark-gallery-5">
+                                <img src="img/Hitachi.png" width="169" height="31" alt="">
+                                   </div>
                               </article>
                               <article class="mark-content-1">
-                                <img src="img/LG.png" width="121" height="73" alt=""> 
+                                  <div class="mark-gallery-6">
+                                <img src="img/LG.png" width="121" height="73" alt="">
+                                    </div>
+                               </article>
+                              <article class="mark-content-1">
+                                  <div class="mark-gallery-7">
+                                <img src="img/AEG.png" width="151" height="96" alt="">
+                                      </div> 
                               </article>
                               <article class="mark-content-1">
-                                <img src="img/AEG.png" width="151" height="96" alt=""> 
-                              </article>
-                              <article class="mark-content-1">
-                                <img src="ing/Metabo.png" width="204" height="69" alt=""> 
+                                  <div class="mark-gallery-8">
+                                <img src="img/Metabo.png" width="204" height="69" alt="">
+                                   </div> 
                               </article>
                              </div>
                           </div>
-                       <div class="service">
+                         </div>
+                       <div class="main-service">
+                           <div class="container clearfix">
                            <div class="service-name">
                              <h2>Сервис</h2>
                              <p>Хороший интернет-магазин от 
-                                 плохого не только ценами!
+                                 плохого не только ценами!<br>
                                  Мы стараемся изо всех сил, 
                                  чтобы зделать ваши покупки
                                  приятными.
@@ -196,17 +218,18 @@
                            </div>
                           <div class="service-column-2">
                               <h2>Доставка</h2>
-                              <p>Мы с удовольствием доставим ваш товар прямо
-                                  квашему подъезду совершенно бесплатно!
+                                <p>Мы с удовольствием доставим ваш товар прямо
+                                  к вашему подъезду совершенно бесплатно!
                                   Ведь мы неплохо заработаем,поднимая его на ваш этаж!
-                              </p>
-                          </div>
+                                </p>
+                              </div>
                            <div class="service-column-3">
-                             <img src="http://placehold.it/180x140" width="180" height="140" alt="">
+                             <img src="img/Layer 131.png" width="450" height="261" alt="">
                            </div>
+                          </div>
                        </div>
-
-                  <div class="contant">
+                     <div class="contact">
+                     <div class="container clearfix">
                       <div class="contact-left">
                           <h2>Компания Техномарт</h2>
                           <p>Настоящий мужской шоппинг начинается здесь
@@ -216,59 +239,59 @@
                               Мы можем доставить ваш товар в самые отдаленные точки России
                               Техномарт работает со многими транспортными компаниями
                           </p>
-                      </div>
-                          <div class="contact-right">
-                             <h2>Контакты</h2>
-                             <p>Вы можете забрать товар сами.
-                                 заехав в наш офис:
-                             </p>
-                          </div>
-                         <div class="contact-left">
-                             <ul class="way">
+                          <ul class="way">
                                  <li>Деловые линии</li>
                                  <li>Автотрейдинг</li>
                                  <li>ЖелДорЭкспедиция.</li>
                               </ul>
-                             <div class="contact-right">
-                                 <div class="map">
-                                  <img src="img/Слой 5.png" width="300" height="158" alt="">
-                                     <button class="btn" type="submit">Заблудились?Напишите нам!</button>
-                                 </div>
+                          <button class="btn" type="submit">Заблудились?Напишите нам!</button>
+                      </div>
+                          <div class="contact-right">
+                             <h2>Контакты</h2>
+                             <p>Вы можете забрать товар сами.
+                                 заехав в наш офис:</p>
+                             <div class="map">
+                                <img src="img/Слой 5.png" width="300" height="158" alt="">
+                                <button class="btn" type="submit">Заблудились?Напишите нам!</button>
                              </div>
-                            </div>
+                           </div>
                          </div>
-               </main>
-              <footer class="main-footer">
-                <div class="container">
-                  <div class="logo">
+                       </div>
+               <footer class="main-footer">
+                <div class="container clearfix">
+                 <div class="footer-top">
+                  <div class="footer-logo">
                     <a href="#">Техномарт</a>
                      </div>
-                       <nav class="footer-top">
-                       <ul>
+                      <ul class="footer-top-nav">
                         <li>Компания</li>
                         <li>Новости</li>
                         <li>Каталог</li> 
                         <li>Доставка</li>
                         <li>Контакты</li>         
-                       </ul>
-                     </nav>
-                    <div class="footer-center">
-                     <div class="adress">
+                      </ul>
+                  </div>
+                     <div class="footer-center clearfix">
+                      <div class="adress">
                       <h3>г.Санкт-Петербург,ул.Б.Конюшенная,д.19/8<br>
                        +7(812)555-05-55
                       </h3>
                       </div>
-                       <nav class="footer-center-nav">
-                      <ul>
-                        <li>Материалы</li>
-                        <li>Техника</li>
-                        <li>Инструмент</li>
-                        <li>Спецпредложения</li>
+                    <nav class="footer-center-nav">
+                      <ul class="footer-service">
+                        <li>
+                           <a href="#">Материалы</a></li>
+                        <li>
+                           <a href="#">Техника</a></li>
+                        <li>
+                            <a href="#">Инструмент</a></li>
+                        <li>
+                           <a href="#">Спецпредложения</a></li>
                       </ul>
                      </nav>
                     </div>
-                    <div class="footer-bottom">
-                    <section class="footer-contacts">
+                  <div class="footer-bottom clearfix">
+                    <section class="footer-copyright">
                       <p>2010-2017 Компания Техномарт<br>
                       Все права защищены
                        </p>
@@ -280,18 +303,17 @@
                       <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
                     </section>
                     <section class="footer-post">
-                      <p>Обратная связь:
-                         mail@htmlacademy.ru
-                       </p>
-                      </section>
-                      <section class="footer-copyright">
+                      <p>Обратная связь:</p>
+                        <a class="btn" href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+                    </section>
+                    <section class="footer-mark">
                        <p>Разработано:</p>
-                        <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
-                      </section>
+                       <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+                     </section>
                      <div>
                    </div>
-                  </div>
-                </div>
+                 </div>
+               </div>
             </footer>
         </body>
 </html>
