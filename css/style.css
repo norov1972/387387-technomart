@@ -690,7 +690,7 @@ body {
     display: none;
 }
 .product-content-1 .flag-new  {
-    background: url("img/new flag.png") no-repeat 0 0;
+    background: url("../img/new flag.png") no-repeat 0 0;
 }
 
 .product-content-1 .actions {
